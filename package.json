@@ -2,9 +2,9 @@
   "name": "omni-board",
   "version": "0.1.0",
   "description": "All in one scoreboard",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vite build",
+    "dev": "vite"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
     "vite-plugin-env-compatible": "^1.1.1",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
   }
 }
