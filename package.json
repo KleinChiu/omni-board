@@ -1,0 +1,27 @@
+{
+  "name": "omni-board",
+  "version": "0.1.0",
+  "description": "All in one scoreboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KleinChiu/omni-board.git"
+  },
+  "author": "KleinChiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KleinChiu/omni-board/issues"
+  },
+  "homepage": "https://github.com/KleinChiu/omni-board#readme",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4",
+    "vite-plugin-env-compatible": "^1.1.1",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  }
+}
