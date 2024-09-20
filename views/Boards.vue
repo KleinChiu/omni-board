@@ -4,6 +4,9 @@
   </h2>
 
   <router-view />
+
+  <router-link to="/boards/mono"> Mono </router-link>
+  <router-link to="/boards/duo"> Duo </router-link>
 </template>
 
 <script setup lang="ts">
